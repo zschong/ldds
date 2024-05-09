@@ -3,7 +3,7 @@
 ## 介绍
 - Local DDS，简化版DDS，实现MCU本地数据分发服务。
 - [LDDS 设计文档](http://10.30.50.43/charger-firmware/esp32v4.3/platform/components/ldds/-/issues/1)
-![image](/uploads/8e6346f1c278952140a6ae275f5b2380/image.png)
+![image](/uploads/0b893d97e043b470e3a701cc11a35299/image.png)
 ## LDDS拓扑模型
 ```cpp
 /**
