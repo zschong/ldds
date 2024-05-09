@@ -1,9 +1,9 @@
 # ldds
 
 ## 介绍
-分布式消息中间件 litemq
+Local DDS，简化版DDS，实现MCU本地数据分发服务。
 
-## 框架拓扑模型
+## LDDS拓扑模型
 ```cpp
 /**
  * @brief 分布式消息框架拓扑
@@ -165,7 +165,7 @@ int main(void) {
 ├── ldds_syncq.h     # 同步队列头文件
 ├── ldds_task.h      # 任务头文件
 ├── ldds_time.h      # 时间头文件
-├── makefile        # 编译libldds.a
+├── makefile         # 编译libldds.a
 └── port
     ├── freertos                # freertos系统兼容
     │   ├── ldds_frtos_mutex.h
