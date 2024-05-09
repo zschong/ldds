@@ -3,7 +3,7 @@
 ## 介绍
 - Local DDS，简化版DDS，实现MCU本地数据分发服务；
 - 兼容linux、windows、mac、freertos等支持标准c++11容器库的系统；
-- 简化同一进程不同模块间的数据交互，用作消息队列；
+- 实现类以ROS系统的开发模式，简化软件的设计开发流程，可以支撑不同规范的团队协作开发；
 ###  框架
 ![image](https://github.com/zschong/ldds/assets/26220314/135bc8c5-2948-41c2-8f3f-bbf1fc4e8a71)
 
