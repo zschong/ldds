@@ -2,8 +2,19 @@
 
 ## 介绍
 - Local DDS，简化版DDS，实现MCU本地数据分发服务。
-- [LDDS 设计文档](http://10.30.50.43/charger-firmware/esp32v4.3/platform/components/ldds/-/issues/1)
-![image](/uploads/0b893d97e043b470e3a701cc11a35299/image.png)
+###  框架
+![image](https://github.com/zschong/ldds/assets/26220314/135bc8c5-2948-41c2-8f3f-bbf1fc4e8a71)
+
+### 主题管理
+每个主题有一个管理器对象，管理本主题下的订阅者节点。
+![image](https://github.com/zschong/ldds/assets/26220314/21916fe0-4b50-4cdf-9387-62d09a3e6f87)
+节点管理（订阅）
+模块创建节点，订阅主题时向消息框架实现主题与节点的绑定。节点内部有一个主题管理表，用于主题与消息处理函数的绑定。
+![image](https://github.com/zschong/ldds/assets/26220314/96a3b0af-ec5d-4943-b919-3e0339d3ef1f)
+
+### 消息分发（发布）
+![image](https://github.com/zschong/ldds/assets/26220314/40d85d6e-78c9-4e49-8666-c6c832063b55)
+
 ## LDDS拓扑模型
 ```cpp
 /**
