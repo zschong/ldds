@@ -10,7 +10,7 @@
 ### 主题管理
 每个主题有一个管理器对象，管理本主题下的订阅者节点。
 ![image](https://github.com/zschong/ldds/assets/26220314/21916fe0-4b50-4cdf-9387-62d09a3e6f87)
-节点管理（订阅）
+### 节点管理（订阅）
 模块创建节点，订阅主题时向消息框架实现主题与节点的绑定。节点内部有一个主题管理表，用于主题与消息处理函数的绑定。
 ![image](https://github.com/zschong/ldds/assets/26220314/96a3b0af-ec5d-4943-b919-3e0339d3ef1f)
 
