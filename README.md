@@ -17,8 +17,7 @@
 ![image](https://github.com/zschong/ldds/assets/26220314/96a3b0af-ec5d-4943-b919-3e0339d3ef1f)
 
 ### 消息分发（发布）
-![image](https://github.com/zschong/ldds/assets/26220314/0340384d-5186-4fea-bcf8-7fda802cf73e)
-
+![image](https://github.com/zschong/ldds/assets/26220314/8b3d3bf8-6a4b-4090-a69f-475f9e700c55)
 
 ## LDDS拓扑模型
 ```cpp
