@@ -162,25 +162,25 @@ int main(void) {
 │   ├── syncq_demo.cxx          # 同步队列实例演示
 │   ├── time_demo.cxx           # 时间实例演示
 │   └── bus_demo.cxx            # 消息总线实例演示
-├── ldds.cc          # 消息总线实现
-├── ldds.h           # 消息总线头文件
-├── ldds_bus.h       # 消息总线头文件
-├── ldds_cmutex.cc   # 互斥锁实现
-├── ldds_cmutex.h    # 互斥锁头文件
-├── ldds_duration.h  # 持续时间实现
-├── ldds_hex.h       # 十六进制实现
-├── ldds_msg.cc      # 消息体c调用封装
-├── ldds_msg.h       # 消息体c调用头文件
-├── ldds_msgcc.h     # 消息体c++实现
-├── ldds_mutex.h     # 互斥锁头文件
-├── ldds_node.h      # 消息框架角色节点头文件
-├── ldds_payload.h   # 消息载荷头文件
-├── ldds_platform.h  # 消息平台头文件
-├── ldds_rtti.h      # 类型信息头文件
-├── ldds_syncm.h     # 同步kv表头文件
-├── ldds_syncq.h     # 同步队列头文件
-├── ldds_task.h      # 任务头文件
-├── ldds_time.h      # 时间头文件
+├── ldds.cc          # LDDS框架c接口实现
+├── ldds.h           # LDDS框架c接口
+├── ldds_bus.h       # 消息总线头
+├── ldds_cmutex.cc   # 互斥锁c接口实现
+├── ldds_cmutex.h    # 互斥锁c接口
+├── ldds_duration.h  # 时间统计
+├── ldds_hex.h       # 十六进制打印
+├── ldds_msg.cc      # 消息操作c接口实现
+├── ldds_msg.h       # 消息操作c接口
+├── ldds_msgcc.h     # 消息定义c++版
+├── ldds_mutex.h     # 互斥锁 
+├── ldds_node.h      # 消息订阅者节点
+├── ldds_payload.h   # 消息载荷
+├── ldds_platform.h  # 消息平台
+├── ldds_rtti.h      # 类型信息
+├── ldds_syncm.h     # 同步kv表
+├── ldds_syncq.h     # 同步队列
+├── ldds_task.h      # 任务创建、开启
+├── ldds_time.h      # 开机时间、挂钟时间
 ├── makefile         # 编译libldds.a
 └── port
     ├── freertos                # freertos系统兼容
@@ -190,4 +190,4 @@ int main(void) {
     └── linux                   # linux系统兼容
         ├── ldds_linux_mutex.h
         └── ldds_linux_time.h
-```.
+```
